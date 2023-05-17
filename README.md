@@ -81,6 +81,13 @@ This version is rebuilt from [incubathttps://github.com/apache/incubator-livy/tr
     livy.server.port = 8998
     livy.spark.master = 
     livy.spark.deploy-mode = 
+
+    # Whether or not to skip timeout check for a busy session
+    livy.server.session.timeout-check.skip-busy = true
+
+    # Time in milliseconds on how long Livy will wait before timing out an inactive session.
+    # Note that the inactive session could be busy running jobs.    
+    livy.server.session.timeout = 15m
     ```
 
 > **Note**:
