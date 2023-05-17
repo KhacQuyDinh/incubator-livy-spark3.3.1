@@ -65,8 +65,26 @@ Livy requires Spark 2.4+. You can switch to a different version of Spark by sett
 
 This version is rebuilt from [incubathttps://github.com/apache/incubator-livy/tree/v0.7.0-incubatingor](https://github.com/apache/incubator-livy/tree/v0.7.0-incubating) to make it run with spark-3.3.1
 
-> **Note**:
+- Edit config files: 
+ - conf/livy-env.sh
+    ```
+    export SPARK_CONF_DIR=spark-3.3.1-bin-hadoop3/conf
+    export LIVY_LOG_DIR=incubator-livy/logs
+    export PYSPARK_PYTHON=/usr/bin/python3
+    export PYSPARK_DRIVER_PYTHON=/usr/bin/python3
+    export LIVY_SERVER_JAVA_OPTS="-Xmx2g"
 
+    ```
+ - livy.conf
+    ```
+    livy.server.host = localhost
+    livy.server.port = 8998
+    livy.spark.master = 
+    livy.spark.deploy-mode = 
+    ```
+ 
+
+> **Note**:
 When u run spark-submit job and get error "jetty Illegal appears", you should consider open firewall port for all spark-nodes, this is not an error of this livy.
 
 ## Python lib for accessing Livy
