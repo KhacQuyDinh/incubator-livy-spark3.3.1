@@ -88,3 +88,11 @@ between different Spark versions.
 
 The Livy package itself does not contain a Spark distribution. It will work with any supported
 version of Spark without needing to rebuild.
+
+> **Note**:
+
+when u run spark-submit job and get error "jetty Illegal appears", you should consider open firewall port for all spark-nodes, this is not an error of livy.
+
+
+## References:
+[1] https://stackoverflow.com/questions/67085984/how-to-rebuild-apache-livy-with-scala-2-12
