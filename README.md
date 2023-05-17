@@ -65,7 +65,7 @@ Livy requires Spark 2.4+. You can switch to a different version of Spark by sett
 
 This version is rebuilt from [incubathttps://github.com/apache/incubator-livy/tree/v0.7.0-incubatingor](https://github.com/apache/incubator-livy/tree/v0.7.0-incubating) to make it run with spark-3.3.1
 
-- Edit the following config files to your spark cluster information: 
+- Edit the following config files to match your spark cluster information: 
   - conf/livy-env.sh
     ```
     export SPARK_CONF_DIR=spark-3.3.1-bin-hadoop3/conf
