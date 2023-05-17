@@ -63,7 +63,7 @@ Livy requires Spark 2.4+. You can switch to a different version of Spark by sett
 
 ## Livy spark-3.3.1
 
-This version is rebuilt from [incubathttps://github.com/apache/incubator-livy/tree/v0.7.0-incubatingor](https://github.com/apache/incubator-livy/tree/v0.7.0-incubating) to make it running with spark-3.3.1
+This version is rebuilt from [incubathttps://github.com/apache/incubator-livy/tree/v0.7.0-incubatingor](https://github.com/apache/incubator-livy/tree/v0.7.0-incubating) to make it run with spark-3.3.1
 
 > **Note**:
 
@@ -73,5 +73,5 @@ When u run spark-submit job and get error "jetty Illegal appears", you should co
 
 See this: https://pylivy.readthedocs.io/en/stable/index.html
 
-## References:
+## References for rebuiding Livy from source code:
 [1] https://stackoverflow.com/questions/67085984/how-to-rebuild-apache-livy-with-scala-2-12
