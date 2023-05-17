@@ -22,7 +22,7 @@ section on the [Community](http://livy.incubator.apache.org/community) page of o
 Guides and documentation on getting started using Livy, example code snippets, and Livy API
 documentation can be found at [livy.incubator.apache.org](http://livy.incubator.apache.org).
 
-## Before Building Livy
+## Before Running Livy
 
 To build Livy, you will need:
 
@@ -61,38 +61,17 @@ Livy requires Spark 2.4+. You can switch to a different version of Spark by sett
 ``SPARK_HOME`` environment variable in the Livy server process, without needing to rebuild Livy.
 
 
-## Building Livy
+## Livy spark-3.3.1
 
-Livy is built using [Apache Maven](http://maven.apache.org). To check out and build Livy, run:
-
-```
-git clone https://github.com/apache/incubator-livy.git
-cd incubator-livy
-mvn package
-```
-
-You can also use the provided [Dockerfile](./Dockerfile):
-
-```
-git clone https://github.com/apache/incubator-livy.git
-cd incubator-livy/dev/docker
-docker build -t livy .
-docker run --rm -it -v $(pwd)/../../:/workspace -v $HOME/.m2:/root/.m2 livy mvn package
-```
-
-> **Note**: The `docker run` command maps the maven repository to your host machine's maven cache so subsequent runs will not need to download dependencies.
-
-By default Livy is built against Apache Spark 2.4.5, but the version of Spark used when running
-Livy does not need to match the version used to build Livy. Livy internally handles the differences
-between different Spark versions.
-
-The Livy package itself does not contain a Spark distribution. It will work with any supported
-version of Spark without needing to rebuild.
+This version is rebuilt from [incubathttps://github.com/apache/incubator-livy/tree/v0.7.0-incubatingor](https://github.com/apache/incubator-livy/tree/v0.7.0-incubating) to make it running with spark-3.3.1
 
 > **Note**:
 
-when u run spark-submit job and get error "jetty Illegal appears", you should consider open firewall port for all spark-nodes, this is not an error of livy.
+When u run spark-submit job and get error "jetty Illegal appears", you should consider open firewall port for all spark-nodes, this is not an error of this livy.
 
+## Python lib for accessing Livy
+
+See this: https://pylivy.readthedocs.io/en/stable/index.html
 
 ## References:
 [1] https://stackoverflow.com/questions/67085984/how-to-rebuild-apache-livy-with-scala-2-12
