@@ -173,11 +173,6 @@
     </dependency>
 
     <dependency>
-      <groupId>org.eclipse.jetty</groupId>
-      <artifactId>jetty-servlet</artifactId>
-    </dependency>
-
-    <dependency>
       <groupId>org.json4s</groupId>
       <artifactId>json4s-ast_${scala.binary.version}</artifactId>
     </dependency>
