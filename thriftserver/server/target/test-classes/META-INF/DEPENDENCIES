@@ -1,0 +1,173 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+livy-thriftserver
+
+
+From: 'an unknown organization'
+  - JPam (http://jpam.sf.net) net.sf.jpam:jpam:jar:1.1
+    License: The Apache Software License, Version 2.0  (http://jpam.sourceforge.net/LICENSE.txt)
+  - Apache Thrift (http://thrift.apache.org) org.apache.thrift:libfb303:pom:0.9.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Thrift (http://thrift.apache.org) org.apache.thrift:libthrift:pom:0.9.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - MortBay :: Apache EL :: API and Implementation (https://github.com/jetty-project/jasper-jsp/apache-el) org.mortbay.jasper:apache-el:jar:8.5.70
+    License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - MortBay :: Apache Jasper :: JSP Implementation (https://github.com/jetty-project/jasper-jsp/apache-jsp) org.mortbay.jasper:apache-jsp:jar:8.5.70
+    License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+From: 'Eclipse Foundation' (http://www.eclipse.org/)
+  - Eclipse Compiler for Java(TM) (http://www.eclipse.org/jdt) org.eclipse.jdt:ecj:jar:3.19.0
+    License: Eclipse Public License - v 2.0  (https://www.eclipse.org/legal/epl-2.0/)
+
+From: 'GlassFish Community' (http://glassfish.org)
+  - JavaServer Pages(TM) API (http://jsp.java.net) javax.servlet.jsp:javax.servlet.jsp-api:jar:2.3.1
+    License: CDDL + GPLv2 with classpath exception  (http://glassfish.dev.java.net/nonav/public/CDDL+GPL.html)
+
+From: 'GlassFish Community' (https://glassfish.dev.java.net)
+  - Java Servlet API (http://servlet-spec.java.net) javax.servlet:javax.servlet-api:jar:3.1.0
+    License: CDDL + GPLv2 with classpath exception  (https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html)
+  - OSGi resource locator bundle - used by various API providers that rely on META-INF/services mechanism to locate providers. (http://glassfish.org/osgi-resource-locator/) org.glassfish.hk2:osgi-resource-locator:jar:1.0.1
+    License: CDDL + GPLv2 with classpath exception  (https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html)
+
+From: 'GlassFish Community' (https://glassfish.java.net)
+  - javax.annotation API (http://jcp.org/en/jsr/detail?id=250) javax.annotation:javax.annotation-api:jar:1.2
+    License: CDDL + GPLv2 with classpath exception  (https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html)
+
+From: 'Jamon developers' (http://www.jamon.org/)
+  - jamon-runtime (http://www.jamon.org/jamon-runtime/) org.jamon:jamon-runtime:jar:2.3.1
+    License: Mozilla Public License Version 1.1  (http://www.mozilla.org/MPL/MPL-1.1.txt)
+
+From: 'Mort Bay Consulting' (http://www.mortbay.com)
+  - Jetty :: Schemas (https://eclipse.org/jetty/jetty-schemas) org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.2
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+
+From: 'Oracle Corporation' (http://www.oracle.com)
+  - HK2 API module (https://hk2.java.net/hk2-api) org.glassfish.hk2:hk2-api:jar:2.5.0-b32
+    License: CDDL + GPLv2 with classpath exception  (https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html)
+  - ServiceLocator Default Implementation (https://hk2.java.net/hk2-locator) org.glassfish.hk2:hk2-locator:jar:2.5.0-b32
+    License: CDDL + GPLv2 with classpath exception  (https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html)
+  - HK2 Implementation Utilities (https://hk2.java.net/hk2-utils) org.glassfish.hk2:hk2-utils:jar:2.5.0-b32
+    License: CDDL + GPLv2 with classpath exception  (https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html)
+  - aopalliance version 1.0 repackaged as a module (https://hk2.java.net/external/aopalliance-repackaged) org.glassfish.hk2.external:aopalliance-repackaged:jar:2.5.0-b32
+    License: CDDL + GPLv2 with classpath exception  (https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html)
+  - javax.inject:1 as OSGi bundle (https://hk2.java.net/external/javax.inject) org.glassfish.hk2.external:javax.inject:jar:2.5.0-b32
+    License: CDDL + GPLv2 with classpath exception  (https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html)
+
+From: 'Oracle Corporation' (http://www.oracle.com/)
+  - javax.ws.rs-api (http://jax-rs-spec.java.net) javax.ws.rs:javax.ws.rs-api:jar:2.0.1
+    License: CDDL 1.1  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)    License: GPL2 w/ CPE  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)
+  - jersey-repackaged-guava (https://jersey.java.net/project/project/jersey-guava/) org.glassfish.jersey.bundles.repackaged:jersey-guava:bundle:2.25.1
+    License: CDDL+GPL License  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)
+  - jersey-core-common (https://jersey.java.net/jersey-common/) org.glassfish.jersey.core:jersey-common:jar:2.25.1
+    License: CDDL+GPL License  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)
+
+From: 'OW2' (http://www.ow2.org/)
+  - asm (http://asm.ow2.io/) org.ow2.asm:asm:jar:9.4
+    License: BSD-3-Clause  (https://asm.ow2.io/license.html)
+  - asm-commons (http://asm.ow2.io/) org.ow2.asm:asm-commons:jar:9.4
+    License: BSD-3-Clause  (https://asm.ow2.io/license.html)
+  - asm-tree (http://asm.ow2.io/) org.ow2.asm:asm-tree:jar:9.4
+    License: BSD-3-Clause  (https://asm.ow2.io/license.html)
+
+From: 'QOS.ch' (http://www.qos.ch)
+  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.10
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+  - SLF4J Reload4j Binding (http://reload4j.qos.ch) org.slf4j:slf4j-reload4j:jar:1.7.36
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+From: 'QOS.CH Sarl (Switzerland)' (https://reload4j.qos.ch)
+  - reload4j (https://reload4j.qos.ch) ch.qos.reload4j:reload4j:jar:1.2.25
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Shigeru Chiba, www.javassist.org'
+  - Javassist (http://www.javassist.org/) org.javassist:javassist:bundle:3.20.0-GA
+    License: MPL 1.1  (http://www.mozilla.org/MPL/MPL-1.1.html)    License: LGPL 2.1  (http://www.gnu.org/licenses/lgpl-2.1.html)    License: Apache License 2.0  (http://www.apache.org/licenses/)
+
+From: 'The Apache Software Foundation' (http://jakarta.apache.org)
+  - Logging (http://jakarta.apache.org/commons/logging/) commons-logging:commons-logging:jar:1.0.4
+    License: The Apache Software License, Version 2.0  (/LICENSE.txt)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Commons CLI (http://commons.apache.org/cli/) commons-cli:commons-cli:jar:1.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons Codec (http://commons.apache.org/proper/commons-codec/) commons-codec:commons-codec:jar:1.9
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Lang (http://commons.apache.org/lang/) commons-lang:commons-lang:jar:2.6
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache HttpClient (http://hc.apache.org/httpcomponents-client) org.apache.httpcomponents:httpclient:jar:4.5.13
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache HttpCore (http://hc.apache.org/httpcomponents-core-ga) org.apache.httpcomponents:httpcore:jar:4.4.4
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Standard Taglib Implementation (http://tomcat.apache.org/taglibs/standard-1.2.5/taglibs-standard-impl) org.apache.taglibs:taglibs-standard-impl:bundle:1.2.5
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Standard Taglib Specification API (http://tomcat.apache.org/taglibs/standard-1.2.5/taglibs-standard-spec) org.apache.taglibs:taglibs-standard-spec:bundle:1.2.5
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (https://www.apache.org/)
+  - Apache Directory API ASN.1 API (http://directory.apache.org/api-parent/api-asn1-parent/api-asn1-api/) org.apache.directory.api:api-asn1-api:bundle:2.0.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Directory LDAP API Utilities (http://directory.apache.org/api-parent/api-util/) org.apache.directory.api:api-util:bundle:2.0.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Hive Classifications (https://hive.apache.org/hive-classification) org.apache.hive:hive-classification:jar:3.1.2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Hive Service (https://hive.apache.org/hive-service) org.apache.hive:hive-service:jar:3.1.2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Hive Service RPC (https://hive.apache.org/hive-service-rpc) org.apache.hive:hive-service-rpc:jar:3.1.2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Hive Upgrade Acid (https://www.apache.org/hive-upgrade-acid/) org.apache.hive:hive-upgrade-acid:jar:3.1.2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - livy-thriftserver-session (http://livy.incubating.apache.org/thriftserver/livy-thriftserver-session/) org.apache.livy:livy-thriftserver-session:jar:0.8.0-incubating-SNAPSHOT
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Webtide' (https://webtide.com)
+  - Jetty :: Apache JSP Implementation (https://eclipse.org/jetty/apache-jsp) org.eclipse.jetty:apache-jsp:jar:9.4.50.v20221201
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (https://www.eclipse.org/org/documents/epl-v10.php)
+  - Apache :: JSTL module (http://tomcat.apache.org/taglibs/standard/) org.eclipse.jetty:apache-jstl:jar:9.4.50.v20221201
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (https://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Servlet Annotations (https://eclipse.org/jetty/jetty-annotations) org.eclipse.jetty:jetty-annotations:jar:9.4.50.v20221201
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (https://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Asynchronous HTTP Client (https://eclipse.org/jetty/jetty-client) org.eclipse.jetty:jetty-client:jar:9.4.50.v20221201
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (https://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Http Utility (https://eclipse.org/jetty/jetty-http) org.eclipse.jetty:jetty-http:jar:9.4.50.v20221201
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (https://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: IO Utility (https://eclipse.org/jetty/jetty-io) org.eclipse.jetty:jetty-io:jar:9.4.50.v20221201
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (https://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: JAAS (https://eclipse.org/jetty/jetty-jaas) org.eclipse.jetty:jetty-jaas:jar:9.4.50.v20221201
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (https://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: JNDI Naming (https://eclipse.org/jetty/jetty-jndi) org.eclipse.jetty:jetty-jndi:jar:9.4.50.v20221201
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (https://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Plus (https://eclipse.org/jetty/jetty-plus) org.eclipse.jetty:jetty-plus:jar:9.4.50.v20221201
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (https://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Runner (https://eclipse.org/jetty/jetty-runner) org.eclipse.jetty:jetty-runner:jar:9.4.50.v20221201
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (https://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Security (https://eclipse.org/jetty/jetty-security) org.eclipse.jetty:jetty-security:jar:9.4.50.v20221201
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (https://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Server Core (https://eclipse.org/jetty/jetty-server) org.eclipse.jetty:jetty-server:jar:9.4.50.v20221201
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (https://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Servlet Handling (https://eclipse.org/jetty/jetty-servlet) org.eclipse.jetty:jetty-servlet:jar:9.4.50.v20221201
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (https://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Utilities (https://eclipse.org/jetty/jetty-util) org.eclipse.jetty:jetty-util:jar:9.4.50.v20221201
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (https://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Utilities :: Ajax(JSON) (https://eclipse.org/jetty/jetty-util-ajax) org.eclipse.jetty:jetty-util-ajax:jar:9.4.50.v20221201
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (https://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Webapp Application Support (https://eclipse.org/jetty/jetty-webapp) org.eclipse.jetty:jetty-webapp:jar:9.4.50.v20221201
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (https://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: XML utilities (https://eclipse.org/jetty/jetty-xml) org.eclipse.jetty:jetty-xml:jar:9.4.50.v20221201
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (https://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Websocket :: API (https://eclipse.org/jetty/websocket-parent/websocket-api) org.eclipse.jetty.websocket:websocket-api:jar:9.4.50.v20221201
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (https://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Websocket :: Client (https://eclipse.org/jetty/websocket-parent/websocket-client) org.eclipse.jetty.websocket:websocket-client:jar:9.4.50.v20221201
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (https://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Websocket :: Common (https://eclipse.org/jetty/websocket-parent/websocket-common) org.eclipse.jetty.websocket:websocket-common:jar:9.4.50.v20221201
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (https://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Websocket :: Server (https://eclipse.org/jetty/websocket-parent/websocket-server) org.eclipse.jetty.websocket:websocket-server:jar:9.4.50.v20221201
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (https://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Websocket :: Servlet Interface (https://eclipse.org/jetty/websocket-parent/websocket-servlet) org.eclipse.jetty.websocket:websocket-servlet:jar:9.4.50.v20221201
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (https://www.eclipse.org/org/documents/epl-v10.php)
+
+
+
+

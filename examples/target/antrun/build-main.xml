@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <mkdir dir="/home/quydk/Documents/citigo-projects-tmp/ansible_spark/incubator-livy/examples/target/tmp"/>
+</target>
+</project>

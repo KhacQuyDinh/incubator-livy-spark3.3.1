@@ -18,7 +18,7 @@ docs/api/
 lib_managed/
 logs/
 src_managed/
-target/
+#target/
 reports/
 metastore_db/
 derby.log
