@@ -51,7 +51,7 @@ This version is rebuilt from [incubathttps://github.com/apache/incubator-livy/tr
     export LIVY_SERVER_JAVA_OPTS="-Xmx2g"
 
     ```
-  - livy.conf
+  - conf/livy.conf
     ```
     livy.server.host = localhost
     livy.server.port = 8998
