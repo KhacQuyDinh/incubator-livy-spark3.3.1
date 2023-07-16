@@ -45,9 +45,7 @@ This version is rebuilt from [incubathttps://github.com/apache/incubator-livy/tr
   
 - Edit the following config files to match your spark cluster information: 
   - conf/livy-env.sh
-    ```
-    export SPARK_CONF_DIR=spark-3.3.1-bin-hadoop3/conf
-    export LIVY_LOG_DIR=incubator-livy/logs
+    ```    
     export PYSPARK_PYTHON=/usr/bin/python3
     export PYSPARK_DRIVER_PYTHON=/usr/bin/python3
     export LIVY_SERVER_JAVA_OPTS="-Xmx2g"
