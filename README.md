@@ -40,7 +40,7 @@ This version is rebuilt from [incubathttps://github.com/apache/incubator-livy/tr
   
   * Extract file: `tar -xzvf apache-livy-0.8.0-incubating-SNAPSHOT-bin.tar.gz`
   * Rename folder: `mv apache-livy-0.8.0-incubating-SNAPSHOT-bin incubator-livy`
-  * Move to foler: `cd incubator-livy`
+  * Move to folder: `cd incubator-livy`
   * Create log4j.properties: `cp conf/log4j.properties.template conf/log4j.properties`
   
 - Edit the following config files to match your spark cluster information: 
