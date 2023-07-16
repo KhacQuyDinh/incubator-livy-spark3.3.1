@@ -65,8 +65,9 @@ Livy requires Spark 2.4+. You can switch to a different version of Spark by sett
 
 This version is rebuilt from [incubathttps://github.com/apache/incubator-livy/tree/v0.7.0-incubatingor](https://github.com/apache/incubator-livy/tree/v0.7.0-incubating) to make it run with spark-3.3.1
 
-- Decompress apache-livy-0.8.0-incubating-SNAPSHOT-bin.tar.gz
-- mv apache-livy-0.8.0-incubating-SNAPSHOT-bin incubator-livy
+- Run: tar -xzvf apache-livy-0.8.0-incubating-SNAPSHOT-bin.tar.gz
+- Run: mv apache-livy-0.8.0-incubating-SNAPSHOT-bin incubator-livy
+- Run: cp conf/log4j.properties.template conf/log4j.properties
 - Edit the following config files to match your spark cluster information: 
   - conf/livy-env.sh
     ```
@@ -81,8 +82,8 @@ This version is rebuilt from [incubathttps://github.com/apache/incubator-livy/tr
     ```
     livy.server.host = localhost
     livy.server.port = 8998
-    livy.spark.master = 
-    livy.spark.deploy-mode = 
+    livy.spark.master = (ex. spark://master:7077)
+    livy.spark.deploy-mode = (ex. client)
 
     # Whether or not to skip timeout check for a busy session
     livy.server.session.timeout-check.skip-busy = true
@@ -90,6 +91,8 @@ This version is rebuilt from [incubathttps://github.com/apache/incubator-livy/tr
     # Time in milliseconds on how long Livy will wait before timing out an inactive session.
     # Note that the inactive session could be busy running jobs.    
     livy.server.session.timeout = 15m
+
+    livy.repl.jars = (ex. /opt/incubator-livy/jars)
     ```
 
 - Start Livy:
